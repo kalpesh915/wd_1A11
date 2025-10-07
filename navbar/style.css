@@ -1,0 +1,38 @@
+.navbar{
+    background-color: tomato;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar ul li{
+    display: inline;
+}
+
+.navbar ul li a{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* .navbar ul li a:hover{
+    background-color: black;
+} */
+
+.navbar ul li a:not(.active):hover{
+    background-color: black;
+}
+
+/* .navbar ul li a:not(.active):hover{
+    border-bottom: 2px solid white; 
+    font-size: 120%;
+} */
+
+.active{
+    background-color: green;
+}
