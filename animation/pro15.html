@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes myAnimation{
+            0%{
+                background-color: tomato;
+                top: 0px;
+                left: 0px;
+            }
+
+            100%{
+                background-color: black;
+                top: 400px;
+                left: 400px;
+            }
+        }
+
+
+        .box{
+            height: 150px;
+            width: 150px;
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            position: relative;
+            top: 0px;
+            left: 0px;
+
+            animation-name: myAnimation;
+            animation-duration: 5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Animation Demo</div>
+</body>
+</html>

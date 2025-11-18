@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button{
+            background-color: tomato;   
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border: 0px;
+            display: inline-block;
+            width: 150px;
+            transition-property: all;
+            transition-duration: 5s; 
+            /* ease - transition will start slow, then go fast, and end slow (this is default) */
+            transition-timing-function: linear;
+        }
+
+        button:hover{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <button>Yes</button>
+</body>
+</html>
